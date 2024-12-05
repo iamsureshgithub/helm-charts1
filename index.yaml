@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   helm-example:
   - apiVersion: v2
+    appVersion: v0.0.2
+    created: "2024-12-05T08:17:04.874245863Z"
+    description: Simple API application.
+    digest: d1a61e7ee904eabe8cf1b6d47e63aaa739ebb23ec15d5ffc97844f5764dffa68
+    maintainers:
+    - name: nakamasato
+    name: helm-example
+    sources:
+    - https://github.com/nakamasato/kubernetes-training
+    - https://github.com/nakamasato/flask-test
+    type: application
+    urls:
+    - https://github.com/iamsureshgithub/helm-charts1/releases/download/helm-example-0.2.0/helm-example-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: v0.0.1
     created: "2023-04-08T03:02:31.341160768Z"
     description: Simple API application.
@@ -97,4 +112,4 @@ entries:
     urls:
     - https://github.com/nakamasato/helm-charts/releases/download/mysql-operator-0.1.0/mysql-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-02T00:32:25.909159057Z"
+generated: "2024-12-05T08:17:04.874271531Z"
